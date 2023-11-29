@@ -1,0 +1,30 @@
+{
+	"name": "le-coin-des-profs",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@iconify/svelte": "^3.1.4",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"@tailwindcss/typography": "^0.5.10",
+		"autoprefixer": "^10.4.16",
+		"daisyui": "^4.4.9",
+		"postcss": "^8.4.31",
+		"prisma": "^5.6.0",
+		"svelte": "^4.2.7",
+		"tailwindcss": "^3.3.5",
+		"vite": "^4.4.2",
+		"vitest": "^0.34.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@prisma/client": "^5.6.0",
+		"bcrypt": "^5.1.1"
+	}
+}
